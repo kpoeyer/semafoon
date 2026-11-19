@@ -1,0 +1,12 @@
+Dit voorkomt dat je per ongeluk je `venv`, logboeken of persoonlijke filter-instellingen naar GitHub stuurt.
+
+1. Klik **Add file** → **Create new file**
+2. Naam: **`.gitignore`** (met de punt ervoor!)
+3. Plak:
+
+```text
+venv/
+__pycache__/
+*.pyc
+filters.json
+p2000_matches.log
